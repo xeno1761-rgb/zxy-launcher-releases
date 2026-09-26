@@ -3,7 +3,7 @@
     "id": "skin-3d-viewer",
     "name": "3D Skin Doll & Capes Wardrobe",
     "version": "2.0.0",
-    "description": "Интерактивная 3D-модель персонажа с анимацией, гардеробом скинов и установкой плащей.",
+    "description": "Interactive 3D character model with animation, a skin wardrobe and cape support.",
     "author": "Zxy Team",
     "category": "customization",
     "permissions": ["ui:slots", "storage:local", "game:profiles"],
@@ -20,41 +20,41 @@
     "configSchema": {
       "showWardrobeButton": {
         "type": "boolean",
-        "label": "Кнопка «Изменить скин»",
-        "description": "Отображать кнопку открытия гардероба скинов под 3D-моделью",
+        "label": "Change skin button",
+        "description": "Show a button that opens the skin wardrobe below the 3D model",
         "default": true
       },
       "modelWidth": {
         "type": "number",
-        "label": "Ширина модели (px)",
+        "label": "Model width (px)",
         "min": 120,
         "max": 220,
         "step": 10,
         "default": 160
       }
     },
-    "sizeBytes": 136481,
-    "checksum": "d6163491483e8c22c6c12a757116f77249fe0aa33948033e4cb776a09500d82f",
+    "sizeBytes": 138333,
+    "checksum": "0a44412df5dabaf4d2526d672a3bf50fe9938ebac8558bd5de50cb4f41078546",
     "downloadUrl": "https://raw.githubusercontent.com/xeno1761-rgb/zxy-launcher-releases/main/addons/dist/skin-3d-viewer.zip"
   },
   {
     "id": "modrinth-browser",
     "name": "Modrinth Explorer",
     "version": "2.8.0",
-    "description": "Каталог модов, ресурспаков и шейдеров от Modrinth с быстрой установкой в один клик.",
+    "description": "Browse mods, resource packs and shaders from Modrinth and install them in one click.",
     "author": "Zxy Team",
     "category": "utility",
     "permissions": ["fs:instances", "ui:slots", "network:fetch"],
     "tags": ["mods", "modrinth", "shaders", "resourcepacks"],
-    "sizeBytes": 7145,
-    "checksum": "bbf4e6ac1d2d1c16b422ebb1acc354d947c02870dece8d6a63709a3ea48e5727",
+    "sizeBytes": 6960,
+    "checksum": "d8c458d447878f22b60f34980eeaeff880e0cbc50eb917d1c2b88a3f8ddd08c4",
     "downloadUrl": "https://raw.githubusercontent.com/xeno1761-rgb/zxy-launcher-releases/main/addons/dist/modrinth-browser.zip"
   },
   {
     "id": "discord-rpc",
     "name": "Discord Rich Presence",
     "version": "1.1.0",
-    "description": "Отображает ваш статус в Discord: версию Minecraft, выбранный профиль и время игры в лаунчере.",
+    "description": "Shows your Discord status: the Minecraft version, the selected profile and time spent in the launcher.",
     "author": "Zxy Team",
     "category": "integration",
     "permissions": [
@@ -67,25 +67,25 @@
     "configSchema": {
       "showProfile": {
         "type": "boolean",
-        "label": "Показывать никнейм в статусе",
-        "description": "Отображает имя текущего профиля в Discord",
+        "label": "Show username in status",
+        "description": "Display the current profile name in Discord",
         "default": true
       },
       "showVersion": {
         "type": "boolean",
-        "label": "Показывать версию Minecraft",
-        "description": "Отображает установленную версию игры",
+        "label": "Show Minecraft version",
+        "description": "Display the installed game version",
         "default": true
       },
       "customDetails": {
         "type": "string",
-        "label": "Кастомный статус",
-        "placeholder": "Играет в кубы",
-        "default": "Играет в Zxy Launcher"
+        "label": "Custom status",
+        "placeholder": "Playing with blocks",
+        "default": "Playing Zxy Launcher"
       }
     },
-    "sizeBytes": 3578,
-    "checksum": "a99b373513d061dc9db9cc1e5c4e83b9c19b9cd04d572f9ed9a80fb5ddefeecb",
+    "sizeBytes": 3404,
+    "checksum": "6051608692ae63c08fc7004e5d616212bffe6f1790fe41e7ca92c79e1c0fae6d",
     "downloadUrl": "https://raw.githubusercontent.com/xeno1761-rgb/zxy-launcher-releases/main/addons/dist/discord-rpc.zip"
   }
 ]
